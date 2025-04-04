@@ -1,20 +1,31 @@
 body {
-  background-color: #e1cbf3;
+  background-color: #f79ebc;
   font-family: "Quicksand", sans-serif;
-  background-image: url(https://as2.ftcdn.net/jpg/04/00/69/07/220_F_400690723_yJq0V3bRS2obwDndHNCnCRanJP8x3Lrr.jpg);
+  background-image: url(https://www.shutterstock.com/image-vector/cherry-ribbons-bow-coquette-girly-600nw-2445933013.jpg);
+  background-repeat: repeat;
 }
 
 .container {
-  background-color: #f4daf9;
+  background-color: #f79ebc;
   padding: 20px;
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20%;
+  margin-top: 10%;
   border-radius: 5px;
+  font-size: 15px;
+  border: 2px solid #b61f24;
+;
 }
 
 h1 {
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-size: 40px;
+  color: white;
+}
+
+p {
   text-align: center;
 }
 
@@ -28,20 +39,28 @@ h1 {
 .text-input {
   padding: 10px;
   border-radius: 5px;
+
+  color: black !important;
+  border: 2px solid #b61f24;
+  /*background-color: #cc5a5e;*/
 }
 
 .submit-input {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #dbc2ee;
+  background-color: #b61f24;
+  color: white;
+  border: 2px solid white;
 }
 
 footer {
-  padding-top: 30px;
+  padding-top: 60px;
   font-size: 12px;
+  text-align: center;
 }
 
 a {
-    color: #5a4673;
+  color: #b61f24;
+  font-weight: bolder;
 }
