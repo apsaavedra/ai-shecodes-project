@@ -20,13 +20,17 @@ Only use the information available on Goodreads. Make sure you can find the book
 The books listed must belong in the romance genre.
 Do not include links.
 Do not leave empty space above the list.
-Each bullet of the list should be presented like this: <p><strong>Title</strong> by Author</p>
+
 
 Make sure to follow the user's instructions.`;
 
   let apiKey = "39d5a6021fofb45e9e8c92202c37tc3f";
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+  let booksElement = document.querySelector("#books-recommended");
+  booksElement.classList.remove("hidden");
+  booksElement.innerHTML = `<span class="generating">Generating your recommendations...</span>`
 
   axios.get(apiUrl).then(showRecommendation);
 }
