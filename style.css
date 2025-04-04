@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  background-color: #f3cfda;
+  background-color: #f4daf9;
   padding: 20px;
   max-width: fit-content;
   margin-left: auto;
@@ -40,4 +40,8 @@ h1 {
 footer {
   padding-top: 30px;
   font-size: 12px;
+}
+
+a {
+    color: #5a4673;
 }
