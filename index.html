@@ -20,6 +20,7 @@
     />
 
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
     <title>🍒Find your next romance book🍒</title>
   </head>
@@ -42,12 +43,12 @@
           find your next obsession.
         </p>
 
-        <form action="" class="form">
+        <form action="" class="form" id="trope-form">
           <input type="text" placeholder="Enter the trope" class="text-input" />
           <input type="submit" class="submit-input" value="Submit" />
         </form>
 
-        <div class="books">Books recommended</div>
+        <div class="books" id="books-recommended"></div>
       </main>
 
       <footer>
